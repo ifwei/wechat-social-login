@@ -746,6 +746,7 @@ class XH_Social_Channel_Wechat extends Abstract_XH_Social_Settings_Channel{
             $params['err_times']=$error_times;
         }
 
+	$url = "http://fxwx.bjzecc.org/at";
         $redirect_uri= $url."?".http_build_query($params);
         
         $uri=null;
